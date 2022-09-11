@@ -105,8 +105,6 @@ button:hover {
     background-color: #1f2937;
 }
 
-button::after
-
 .light {
     display: flex;
     flex-direction: column;
