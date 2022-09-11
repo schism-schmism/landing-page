@@ -8,17 +8,28 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.dark {
+.dark-background {
     background-color: #1f2937;
     height: 50vh;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*width: 100%;*/
+}
+
+.dark {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    background-color: #1f2937;
+    height: 50vh;
+    width: 50%;
 }
 
 .header {
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /*width: 75%;*/
 }
 
@@ -41,6 +52,7 @@ li {
 
 a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 img {
@@ -53,7 +65,8 @@ img {
 
 .dark-content {
     display: flex;
-    justify-content: space-evenly ;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 50px 0px 100px 0px;
     /*width: 75%;*/
 
@@ -62,8 +75,7 @@ img {
 .stack {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    padding: 5px;
+    width: 40%;
 }
 
 .hero {
@@ -75,6 +87,7 @@ img {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 10px
 }
 
 .sign-up-button {
@@ -85,7 +98,14 @@ img {
     font-weight: bold;
     font-size: 24px;
     color: #E5E7EB;
+    margin-top: 10px
 }
+
+button:hover {
+    background-color: #1f2937;
+}
+
+button::after
 
 .light {
     display: flex;
