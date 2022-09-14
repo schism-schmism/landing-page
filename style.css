@@ -201,8 +201,8 @@ button:hover {
     align-items: center;
     width: 50%;
     border-radius: 12px;
-
     padding: 50px;
+    margin-bottom: 75px;
 }
 .blue-box-text {
     display: flex;
@@ -223,4 +223,14 @@ button:hover {
 
 .text-2 {
     color: #F9FAF8;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px;
 }
